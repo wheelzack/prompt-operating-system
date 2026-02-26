@@ -1,1 +1,33 @@
-d
+{
+  "category": "research_analysis",
+  "modules": [
+    {
+      "module_id": "RESEARCH_001",
+      "name": "Market Research Engine",
+      "difficulty": "advanced",
+      "credits_required": 6,
+      "inputs": {
+        "required": ["industry", "geography"],
+        "optional": ["target_customer", "time_horizon"]
+      },
+      "output_format": {
+        "type": "structured",
+        "sections": ["summary", "market_size", "trends", "risks"]
+      }
+    },
+    {
+      "module_id": "RESEARCH_005",
+      "name": "Decision Matrix Builder",
+      "difficulty": "intermediate",
+      "credits_required": 4,
+      "inputs": {
+        "required": ["options", "criteria"],
+        "optional": ["weights"]
+      },
+      "output_format": {
+        "type": "table",
+        "sections": ["matrix", "recommendation"]
+      }
+    }
+  ]
+}
