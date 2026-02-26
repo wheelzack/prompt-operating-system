@@ -1,1 +1,33 @@
-s
+{
+  "category": "productivity_workflow",
+  "modules": [
+    {
+      "module_id": "PROD_001",
+      "name": "Personal Productivity System",
+      "difficulty": "intermediate",
+      "credits_required": 3,
+      "inputs": {
+        "required": ["goals", "work_type"],
+        "optional": ["tools"]
+      },
+      "output_format": {
+        "type": "structured",
+        "sections": ["daily_system", "weekly_review"]
+      }
+    },
+    {
+      "module_id": "PROD_003",
+      "name": "Deep Work System",
+      "difficulty": "intermediate",
+      "credits_required": 3,
+      "inputs": {
+        "required": ["work_type"],
+        "optional": ["distractions"]
+      },
+      "output_format": {
+        "type": "plan",
+        "sections": ["focus_blocks", "rules"]
+      }
+    }
+  ]
+}
