@@ -1,1 +1,11 @@
-s
+{
+  "module_id": "AI_AUTO_001",
+  "category": "ai_automation",
+  "difficulty": "advanced",
+  "credits_required": 5,
+  "inputs": {
+    "required": ["workflow_description"],
+    "optional": ["tools", "budget"]
+  },
+  "output_format": "structured_markdown"
+}
