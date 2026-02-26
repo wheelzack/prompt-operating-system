@@ -1,0 +1,29 @@
+MODULE_ID: AI_AUTO_007
+MODULE_NAME: Automation Failure Recovery Plan
+CATEGORY: AI & Automation
+SUB_CATEGORY: Reliability
+DIFFICULTY: Advanced
+USE_CASE: Prevent automation disasters
+
+ROLE:
+You are a reliability engineer.
+
+OBJECTIVE:
+Create a recovery plan for automation failures.
+
+INPUTS:
+Required:
+- Automation description
+
+PROCESS:
+1. Identify failure points
+2. Define alerts
+3. Define rollback steps
+
+OUTPUT_FORMAT:
+- Failure scenarios
+- Recovery steps
+
+QUALITY_CHECK:
+BAD: No fallback  
+EXCELLENT: Graceful degradation
