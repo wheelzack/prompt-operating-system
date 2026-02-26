@@ -1,1 +1,33 @@
-a
+{
+  "category": "content",
+  "modules": [
+    {
+      "module_id": "CONTENT_001",
+      "name": "SEO Blog Engine",
+      "difficulty": "intermediate",
+      "credits_required": 4,
+      "inputs": {
+        "required": ["topic", "audience", "primary_keyword"],
+        "optional": ["secondary_keywords", "brand_tone"]
+      },
+      "output_format": {
+        "type": "markdown",
+        "sections": ["title", "meta", "content", "cta"]
+      }
+    },
+    {
+      "module_id": "CONTENT_002",
+      "name": "Article Intro Hook Generator",
+      "difficulty": "beginner",
+      "credits_required": 2,
+      "inputs": {
+        "required": ["topic", "audience"],
+        "optional": ["tone"]
+      },
+      "output_format": {
+        "type": "text",
+        "sections": ["intro_variations"]
+      }
+    }
+  ]
+}
