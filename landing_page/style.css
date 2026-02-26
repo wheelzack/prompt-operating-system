@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero {
+  background: #111;
+  color: #fff;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #00c853;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pricing {
+  background: #f5f5f5;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  width: 250px;
+}
+
+.highlight {
+  border: 2px solid #00c853;
+}
